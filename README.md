@@ -38,7 +38,7 @@ Logical circuit of the above expressions is given below:
 image
 
 Figure 02 
-g width="768" height="472" alt="Screenshot 2025-12-14 163022" src="https://github.com/user-attachments/assets/8fcad819-f0c5-4be2-8eae-30259f0b4311" />
+
 Encoder 8 * 3
 
 <img width="768" height="472" alt="Screenshot 2025-12-14 163022" src="https://github.com/user-attachments/assets/51c5076c-8ba2-4f44-a5cd-eb75d0b30272" />
