@@ -32,15 +32,31 @@ image
 
 Figure 02 Encoder 8 * 3
 
-Procedure
-
-/* write all the steps invloved */
 
 PROGRAM
 
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming.
+module encoder(
+			
+			input wire y0,
+			input wire y1,
+			input wire y2,
+			input wire y3,
+			input wire y4,
+			input wire y5,
+			input wire y6,
+			input wire y7,
+			
+			output wire a,
+			output wire b,
+			output wire c);
+			
+			assign a = y4|y5|y6|y7;
+			assign b = y2|y3|y6|y7;
+			assign c = y1|y3|y5|y7;
+			
+endmodule
 
-Developed by : B>SASIREKHA  
+Developed by : B.SASIREKHA  
 
  RegisterNumber: 25015734
 
